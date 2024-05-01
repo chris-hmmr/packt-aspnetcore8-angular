@@ -11,15 +11,13 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
-import { HealthCheckComponent } from './health-check/health-check.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavMenuComponent,
-    HealthCheckComponent
+    NavMenuComponent
   ],
   imports: [
     BrowserModule,
